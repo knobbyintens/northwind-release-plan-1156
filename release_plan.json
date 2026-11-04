@@ -1,0 +1,126 @@
+{
+  "project": "Northwind Platform",
+  "build": "2026.11.3",
+  "previous_build": "2026.11.2",
+  "release_manager": "Priya Nair",
+  "generated_at": "2026-11-03T18:40:00Z",
+  "tickets": [
+    {
+      "id": "NW-104",
+      "title": "Retry failed shipment webhook deliveries",
+      "component": "Fulfillment",
+      "severity": "P1",
+      "status": "done",
+      "owner": "a.patel",
+      "fixed_in": "2026.11.3"
+    },
+    {
+      "id": "NW-108",
+      "title": "Warehouse slotting overflow on bulk SKUs",
+      "component": "Warehouse",
+      "severity": "P0",
+      "status": "blocked",
+      "owner": "m.okafor",
+      "fixed_in": null
+    },
+    {
+      "id": "NW-112",
+      "title": "Dashboard latency regression on analytics tiles",
+      "component": "Analytics",
+      "severity": "P2",
+      "status": "done",
+      "owner": "s.lee",
+      "fixed_in": "2026.11.3"
+    },
+    {
+      "id": "NW-115",
+      "title": "SSO session expiry edge case",
+      "component": "Identity",
+      "severity": "P1",
+      "status": "in_progress",
+      "owner": "j.ramos",
+      "fixed_in": null
+    },
+    {
+      "id": "NW-118",
+      "title": "Invoice rounding on multi-currency orders",
+      "component": "Billing",
+      "severity": "P1",
+      "status": "done",
+      "owner": "d.kim",
+      "fixed_in": "2026.11.3"
+    },
+    {
+      "id": "NW-120",
+      "title": "Fleet route optimizer memory leak",
+      "component": "Routing",
+      "severity": "P0",
+      "status": "done",
+      "owner": "t.volkov",
+      "fixed_in": "2026.11.3"
+    },
+    {
+      "id": "NW-121",
+      "title": "Carrier rate lookup timeout",
+      "component": "Shipping",
+      "severity": "P2",
+      "status": "blocked",
+      "owner": "e.haddad",
+      "fixed_in": null
+    },
+    {
+      "id": "NW-125",
+      "title": "Bulk import CSV encoding fallback",
+      "component": "Data Import",
+      "severity": "P3",
+      "status": "done",
+      "owner": "r.singh",
+      "fixed_in": "2026.11.3"
+    },
+    {
+      "id": "NW-126",
+      "title": "Mobile push notification dedupe",
+      "component": "Notifications",
+      "severity": "P2",
+      "status": "deferred",
+      "owner": "l.chen",
+      "fixed_in": null
+    },
+    {
+      "id": "NW-128",
+      "title": "Inventory audit export column order",
+      "component": "Inventory",
+      "severity": "P3",
+      "status": "in_progress",
+      "owner": "b.novak",
+      "fixed_in": null
+    },
+    {
+      "id": "NW-130",
+      "title": "Depot handoff signature capture",
+      "component": "Warehouse",
+      "severity": "P2",
+      "status": "deferred",
+      "owner": "m.okafor",
+      "fixed_in": null
+    },
+    {
+      "id": "NW-133",
+      "title": "Pricing rule cache invalidation",
+      "component": "Pricing",
+      "severity": "P1",
+      "status": "done",
+      "owner": "k.adams",
+      "fixed_in": "2026.11.2"
+    },
+    {
+      "id": "NW-135",
+      "title": "Support ticket sentiment tagging",
+      "component": "Support",
+      "severity": "P3",
+      "status": "done",
+      "owner": "y.mori",
+      "fixed_in": "2026.11.3"
+    }
+  ]
+}
